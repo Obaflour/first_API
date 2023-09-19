@@ -21,5 +21,5 @@ app.use('/api/tasks', tasksRouter);
  const db = require('./db');
 
 app.listen(port, () => {
-	console.log('Server is running on port ${port}'
+	console.log('Server is running on port ${port}');
 });
